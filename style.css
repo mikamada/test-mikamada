@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Unbounded:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  background-color: #111 !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.wave {
+  background-image: -webkit-linear-gradient(left, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Unbounded", sans-serif;
+}
+
+.title {
+  font-size: 54px;
+  font-weight: 300;
+  font-family: "Ubounded", sans-serif;
+}
+
+.hero {
+  padding: 48px 94px;
+  background-image: url("./assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 145vh;
+}
+
+table,
+th,
+td {
+  border: 1px solid #fff !important;
+  border-collapse: collapse;
+}
+
+.col-logo {
+  width: 330px;
+  padding: 54px;
+  width: 35%;
+}
+
+.logo-name {
+  font-family: 'Unbounded', sans-serif;
+}
+
+.text-logo {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 10px;
+}
+
+.text-boost {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Unbounded", sans-serif;
+}
+
+.text-2023 {
+  font-size: 27px;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 300;
+}
+
+.text-started {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.menu {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(left, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.influence {
+  margin-top: 223px;
+}
+
+.menu-2 {
+  height: 192px;
+  background-color: rgba(0, 0, 0, 0.70);
+  position: absolute;
+  bottom: 0 !important;
+  left: 0 !important;
+  padding: 70px 94px;
+}
+
+.border-menu {
+  height: 40px;
+  width: 200px;
+  border-bottom: 1px solid #fff;
+  font-size: 15px;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+}
+
+/* main */
+/* dreams */
+.dreams {
+  margin-top: 95px;
+  padding: 48px 94px;
+}
+
+
+.frame-ball {
+  width: 241px !important;
+  box-sizing: border-box;
+  height: 276px;
+  background-color: #202020;
+}
+
+.dreams-list {
+  margin-top: 158px;
+
+}
+
+.dreams-list img {
+  width: 624px;
+}
+
+.text-london {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-number {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.desc {
+  width: 400px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+}
+
+/* achive */
+.service {
+  padding: 48px 94px;
+}
+
+.text-services {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Unbounded", sans-serif;
+}
+
+/* project */
+.project {
+  padding: 48px 94px;
+}
+
+.card-item {
+  width: 625px !important;
+  height: 337px;
+  /* border: 1px solid #fff; */
+}
+
+.project-group {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.project-title {
+  font-family: "Unbounded", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+footer {
+  padding: 48px 94px;
+}
+
+@media (max-width: 768px) {
+  table {
+    display: none;
+  }
+  /* .hero {
+    background-size: contain;
+    /* Atur ulang background size untuk perangkat dengan lebar maksimum 768px */
+  } */
+}
